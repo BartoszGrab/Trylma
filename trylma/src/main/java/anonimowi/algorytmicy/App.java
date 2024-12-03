@@ -8,6 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Board board = new Board();
+        board.generateBoard();
+        board.displayBoard();
+        //System.out.println( "Hello World!" );
     }
 }
